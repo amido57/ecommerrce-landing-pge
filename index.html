@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+  <div class="header-container">
+    <div class="logo">
+    <img src="https://i.ibb.co/cYDNQSV/logo.png" alt="Your Logo">
+  </div>
+    <nav class="nav-menu">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">Shop</a>
+      <a href="#" class="nav-link">About</a>
+    </nav>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+</header>
+
+
+
+  <!-- Product Showcase -->
+  <div class="product-slider">
+  <div class="product-slide">
+  <div class="product-image">
+    <img src="https://i.ibb.co/nsZbk8v/product-1.jpg" alt="Product 1">
+  </div>
+  <div class="product-info">
+    <div class="product-name">T-shirt</div>
+    <div class="product-price">300 EGP</div>
+        <p>قطن %100</p>
+      </div>
+    </div>
+  </div>
+  <div class="product-slide">
+  <div class="product-image">
+    <img src="https://i.ibb.co/80QMfrb/product-2.jpg" alt="Product 2">
+  </div>
+  <div class="product-info">
+    <div class="product-name">T-shirt</div>
+    <div class="product-price">300 EGP</div>
+    <p>قطن %100</p>
+  </div>
+</div>
+<div class="product-slide">
+<div class="product-image">
+  <img src="https://i.ibb.co/HKSgQhv/product-3.jpg" alt="Product 3">
+</div>
+<div class="product-info">
+  <div class="product-name">T-Shirt</div>
+  <div class="product-price">250 EGP</div>
+  <p>قطن %100</p>
+</div>
+</div>
+<div class="product-slide">
+<div class="product-image">
+  <img src="https://i.ibb.co/9GKQgq9/product-4.jpg" alt="Product 4">
+</div>
+<div class="product-info">
+  <div class="product-name">pajamas</div>
+  <div class="product-price">300 EGP</div>
+  <p>قطن %100</p>
+</div>
+</div>
+<div class="product-slide">
+<div class="product-image">
+  <img src="https://i.ibb.co/kchXkRw/product-5.jpg" alt="Product 5">
+</div>
+<div class="product-info">
+<div class="product-name">pajamas</div>
+  <div class="product-price">300 EGP</div>
+  <p>قطن %100</p>
+</div>
+</div>
+
+
+
+
+  <!-- Searching Mechanism -->
+  <div class="search-bar">
+    <input type="text" class="search-input" placeholder="Search products...">
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#" class="footer-link">About Us</a>
+        <a href="#" class="footer-link">Contact</a>
+        <a href="#" class="footer-link">Privacy Policy</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://ar-ar.facebook.com/bittykid" class="social-icon">Facebook</a>
+        <a href="https://twitter.com/midoelmowafy1" class="social-icon">Twitter</a>
+        <a href="https://www.instagram.com/bitty_kids/" class="social-icon">Instagram</a>
+      </div>
+  
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.nav-menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
